@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Webpage</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Personal Webpage</h1>
+      <img src="miname.jpg" alt="Alfred" width="150" />
+    </header>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Alfred, a passionate and driven individual with a background in
+        Data Science. I have 3 years of experience in Machine Learning, and I
+        thrive on solving complex problems and creating innovative solutions. My
+        journey has taken me through various roles where I've honed my skills in
+        Python.
+      </p>
+      <p>
+        Outside of work, I enjoy reading, which keeps me inspired and motivated.
+        I believe in continuous learning and am always looking for new
+        challenges to grow both personally and professionally.
+      </p>
+      <p>
+        My ultimate goal is to start a company. Whether it's through projects or
+        collaborating with like-minded individuals, I aim to make a meaningful
+        impact in the world.
+      </p>
+    </section>
+
+    <section>
+      <h2>Contact Details</h2>
+      <ul>
+        <li><strong>Name:</strong> Alfred</li>
+        <li><strong>Phone:</strong> 0713582394</li>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:alfredndlovu@fgkcndlovu">alfredndlovu@gmail.com</a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/alfredndlovu" target="_blank"
+            >LinkedIn Profile</a
+          >
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/fred" target="_blank">GitHub Profile</a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills and Competencies</h2>
+      <ul>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Deep Learning</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>Data Science</strong> - HyperionDev</p>
+      <p><strong>AI</strong> - ALX Group</p>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <p><strong>Machine Learning Engineer</strong> - Refred</p>
+    </section>
+
+    <section>
+      <h2>Search My CV</h2>
+      <form action="/search" method="GET">
+        <label for="search">Search:</label>
+        <input
+          type="text"
+          id="search"
+          name="q"
+          placeholder="Enter keywords..."
+        />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      <form action="/contact" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="40"
+          required
+        ></textarea
+        ><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Alfred Ndlovu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
